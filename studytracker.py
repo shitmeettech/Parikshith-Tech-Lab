@@ -4,10 +4,10 @@ for i in range(3):
     hrs=float(input(f'enter the number of hrs u studied in day{i+1}'))
     total= total + hrs
 print(name)
-print(total)
+print('total number of hrs studied is',total)
 if total>=7:
-    print("excellent")
+    print("excellent performance")
 elif total>=5:
-    print('very good')
+    print('very good intiative')
 else:
-    print('good')
+    print('good effort')

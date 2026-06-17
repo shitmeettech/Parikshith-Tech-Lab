@@ -1,0 +1,22 @@
+name=input('enter your name')
+p=int(input('enter your mark in physics'))
+c=int(input('enter your mark in chemistry'))
+m=int(input('enter your mark in maths'))
+cs=int(input('enter ur mark in computer science'))
+e=int(input('enter your marks in english'))
+s=p+c+m+cs+e
+d=(s/500)*100
+print('Report:')
+if d>=90:
+    print('remarks:excellent')
+elif d>=80:
+    print('remarks:very good')
+else:
+    print('remarks:good')
+print('Name:',name)
+print('Physics',p)
+print('Chemistry',c)
+print('Maths:',m)
+print('Computer Science:',cs)
+print('total marks is:',s)
+print('percentage:',d)
